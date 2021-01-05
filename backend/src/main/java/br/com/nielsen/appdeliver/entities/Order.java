@@ -37,11 +37,9 @@ public class Order implements Serializable {
 	private Set<Product> products = new HashSet<>();
 
 	public Order() {
-		super();
 	}
 
 	public Order(Long id, String address, Double latitude, Double longitude, Instant moment, OrderStatus status) {
-		super();
 		this.id = id;
 		this.address = address;
 		this.latitude = latitude;
